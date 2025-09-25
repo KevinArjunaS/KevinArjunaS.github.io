@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+  <!-- Navbar -->
+  <header class="fixed w-full bg-white shadow-md z-50">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-2xl font-bold">Vinny</h1>
+      <div class="space-x-6">
+        <a href="#about" class="hover:text-blue-500">About</a>
+        <a href="#skills" class="hover:text-blue-500">Skills</a>
+        <a href="#projects" class="hover:text-blue-500">Projects</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="about" class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <h2 class="text-4xl font-bold mb-4">Hi, I'm Vinny 👋</h2>
+    <p class="max-w-xl text-lg text-gray-700">I’m a developer passionate about building interactive and user-friendly websites. Explore my skills and projects below.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="p-6 bg-white shadow rounded-xl hover:scale-105 transition">HTML</div>
+        <div class="p-6 bg-white shadow rounded-xl hover:scale-105 transition">CSS</div>
+        <div class="p-6 bg-white shadow rounded-xl hover:scale-105 transition">JavaScript</div>
+        <div class="p-6 bg-white shadow rounded-xl hover:scale-105 transition">React</div>
+        <!-- Add more as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Project Card -->
+        <a href="https://github.com/yourusername/project1" target="_blank" class="group block bg-white shadow-lg rounded-xl overflow-hidden hover:scale-105 transition">
+          <img src="https://via.placeholder.com/400x200" alt="Project 1" class="w-full">
+          <div class="p-4">
+            <h3 class="font-bold text-lg">Project 1</h3>
+            <p class="text-gray-600">Short description of your project.</p>
+          </div>
+        </a>
+
+        <a href="https://github.com/yourusername/project2" target="_blank" class="group block bg-white shadow-lg rounded-xl overflow-hidden hover:scale-105 transition">
+          <img src="https://via.placeholder.com/400x200" alt="Project 2" class="w-full">
+          <div class="p-4">
+            <h3 class="font-bold text-lg">Project 2</h3>
+            <p class="text-gray-600">Short description of your project.</p>
+          </div>
+        </a>
+
+        <!-- Add more projects here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 bg-gray-800 text-gray-300 text-center">
+    <p>&copy; 2025 Vinny. Built with ❤️</p>
+  </footer>
+</body>
+</html>
 
